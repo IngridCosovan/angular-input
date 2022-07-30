@@ -7,6 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ChildComponent implements OnInit {
   @Input() loggedIn: boolean;
+  @Input() name: string;
+  @Input() list: string[] = [];
+
   constructor() {}
 
   ngOnInit() {}

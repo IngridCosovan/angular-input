@@ -8,4 +8,6 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent {
   //Input Parent to Child
   userLoggedIn = true;
+  puttingName = 'Ana';
+  makingList: string [] = ['Lime', 'Oranges', 'Bananas', "Apples"];
 }
