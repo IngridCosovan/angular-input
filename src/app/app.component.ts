@@ -7,6 +7,5 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   //Input Parent to Child
-  userLoggedIn = false;
-  userLoggedInTwo = true;
+  userLoggedIn = true;
 }
