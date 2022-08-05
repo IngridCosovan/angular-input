@@ -6,9 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./child.component.css'],
 })
 export class ChildComponent implements OnInit {
-  @Input() loggedIn: boolean;
+  @Input('loggedIn') loginFlag = false;
   @Input() name: string;
   @Input() list: string[] = [];
+  @Input('availability') availabilityFlag: boolean; 
 
   constructor() {}
 

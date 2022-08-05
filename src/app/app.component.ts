@@ -9,5 +9,6 @@ export class AppComponent {
   //Input Parent to Child
   userLoggedIn = true;
   puttingName = 'Ana';
-  makingList: string [] = ['Lime', 'Oranges', 'Bananas', "Apples"];
+  makingList: string[] = ['Lime', 'Oranges', 'Bananas', 'Apples'];
+  isAvailable = true;
 }

@@ -1,7 +1,7 @@
 <div>
   <h2>Child Component</h2>
-  <p *ngIf="loggedIn">Welcome back</p>
-  <p *ngIf="!loggedIn">Please log in</p>
+  <p *ngIf="loginFlag">Welcome back</p>
+  <p *ngIf="!loginFlag">Please log in</p>
 </div>
 
 <div>
@@ -12,4 +12,12 @@
 <div>
   <h2>Child Component 3rd trial</h2>
   <h4>List of groceries: {{ list }}</h4>
+</div>
+
+<div>
+  <h2>Child Component 4th</h2>
+  <div>
+    <p *ngIf="availabilityFlag">I am available</p>
+    <p *ngIf="!availabilityFlag">I am in a vacation</p>
+  </div>
 </div>
